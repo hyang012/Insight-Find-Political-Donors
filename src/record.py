@@ -109,40 +109,19 @@ class Record():
         else:
             return False    
         
-    def cmte_id_is_valid(self):
-        """Check whether the recipient id is valid.
-        
-        Returns:
-            True if it is not empty, False otherwise.
-            
-        """
-        
+    def cmte_id_is_valid(self):        
         if self.cmte_id is '':
             return False
         else:
             return True
 
     def transaction_amt_is_valid(self):
-        """Check whether the donation amount is valid.
-        
-        Returns:
-            True if it is not empty, False otherwise.
-            
-        """
-        
         if self.transaction_amt is '':
             return False
         else:
             return True
            
-    def other_id_is_empty(self):
-        """Check whether the other id is valid (empty).
-        
-        Returns:
-            True if it is empty, False otherwise.
-            
-        """
-        
+    def other_id_is_empty(self):        
         if self.other_id is '':
             return True
         else:
@@ -167,14 +146,7 @@ class Record():
             except ValueError:
                 return False
             
-    def zip_is_valid(self):
-        """Check whether the zip code is valid.
-        
-        Returns:
-            True if it is not empty, False otherwise.
-            
-        """
-        
+    def zip_is_valid(self):        
         if self.zip_code is '':
             return False
         else: 

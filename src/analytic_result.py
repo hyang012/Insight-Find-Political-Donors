@@ -40,6 +40,9 @@ class AnalyticResult():
                 
         """
         
+        self.num_contr += 1
+        self.amt_contr += new_transaction_amt
+        
         # Use the bisection algorithm to look for the insertion point
         # for the new donation amount to maintain the list being sorted.
         idx = bisect.bisect_left(self.amt_contr_list, new_transaction_amt)
