@@ -1,5 +1,5 @@
 """ A module that contains the functions related to reading
-    and processing data from the input file.
+    and processing data from the input file for donation records.
     
 """
 

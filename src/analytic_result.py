@@ -1,8 +1,7 @@
 import bisect
 
 class AnalyticResult():
-    """A class that stores the analytical results for contributions
-       from repeat donors for each recipient, zip and calendar year.
+    """Store the analytical results object for donation records.
        
     """
     
@@ -64,6 +63,6 @@ class AnalyticResult():
     
     def __str__(self):
         return (self.id + '|' 
-                + str(round(self.percentile_amt)) + '|'
+                + str(int(round(self.percentile_amt))) + '|'
                 + str(int(round(self.amt_contr))) + '|' 
                 + str(self.num_contr))        

@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class Record():    
-    """A class that stores the related fields of a donation record.
+    """Store the record object for a donation record.
     
     """
     
