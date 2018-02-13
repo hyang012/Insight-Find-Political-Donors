@@ -1,3 +1,7 @@
+*Hongfei Yang*
+
+*02/12/2018*
+
 # Table of Contents
 1. Introduction
 2. Description
